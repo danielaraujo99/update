@@ -1,12 +1,12 @@
 {
-    "Version": null,
-    "ReleaseNotes": null,
+    "Version": "2.1"
+    "ReleaseNotes": "Mantenha o aplicativo sempre atualizado!"
     "Sms": null,
-    "UrlUpdate": null,
+    "UrlUpdate": "https://raw.githubusercontent.com/danielaraujo99/update/main/confg"
     "EmailFeedback": null,
     "UrlContato": null,
     "UrlTermos": null,
-    "CheckUser": null,
+    "CheckUser": "http://45.178.182.100:5454/checkUser"
     "Udp": [
         {
             "Porta": "7300"
