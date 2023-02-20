@@ -1,15 +1,15 @@
 {
-    "Version": "22"
-    "ReleaseNotes": "Mantenha o aplicativo sempre atualizado!"
-    "Sms": null,
-    "UrlUpdate": "https://raw.githubusercontent.com/danielaraujo99/update/main/confg"
-    "EmailFeedback": ""
-    "UrlContato": ""
-    "UrlTermos": ""
-    "CheckUser": "http://45.178.182.100:5454/checkUser"
+    "Version": "22",
+    "ReleaseNotes": "Mantenha o aplicativo sempre atualizado!",
+    "Sms": "",
+    "UrlUpdate": "https://raw.githubusercontent.com/danielaraujo99/update/main/confg",
+    "EmailFeedback": "",
+    "UrlContato": "",
+    "UrlTermos": "",
+    "CheckUser": "http://45.178.182.100:5454/checkUser",
     "Udp": [
         {
-            "Porta": "7300"
+            "Porta": "7300",
         }
     ],
     "Servers": [
