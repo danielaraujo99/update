@@ -1,0 +1,60 @@
+{
+    "Version": null,
+    "ReleaseNotes": null,
+    "Sms": null,
+    "UrlUpdate": null,
+    "EmailFeedback": null,
+    "UrlContato": null,
+    "UrlTermos": null,
+    "CheckUser": null,
+    "Udp": [
+        {
+            "Porta": "7300"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "SERVIDOR MEDASSH",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "b1.medanssh.tk",
+            "CheckUser": "http://45.178.182.100:5454/checkUser",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "VIVO | PRÉ",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: b1.medanssh.tk[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.53.111",
+            "ProxyPort": "80",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO | FRONT",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d3os5g4sf1inpb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "recarga.vivo.com.br",
+            "ProxyPort": "80",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO | EASY",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: b1.medanssh.tk[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.18.7.41",
+            "ProxyPort": "80",
+            "Info": "Tlsws"
+        }
+    ]
+}
